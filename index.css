@@ -90,6 +90,7 @@ h1 {
 
 .item-title{
     flex: 2;
+    width: fit-content;
 }
 
 
