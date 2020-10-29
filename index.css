@@ -119,12 +119,40 @@ a {
     color: #f4f4f4;
 }
 
+.star{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    background: url("images/full-stroke.svg");
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    
+}
+
 .item-preview {
     border: 1px solid #161616;;
 }
 
+
 .description{
     padding: 0 10px;
+}
+
+.rating{
+    border: none;
+    background:none;
+    width: 28%;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 3px;
+}
+
+.update{
+    align-self: center;
+    height: fit-content;
+    margin-bottom: 10px;
 }
 
 /* hide */
