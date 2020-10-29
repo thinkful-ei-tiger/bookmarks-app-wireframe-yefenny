@@ -1,9 +1,9 @@
 /* Body style */
 body{
-    background-color: #fefefe;
+    background-color: #0b1828;
     font-family: 'Fira Sans Extra Condensed', sans-serif;
     font-size: 18px;
-    color: #161616;
+    color: #f7edd2;
 }
 
 h1 {
@@ -11,6 +11,12 @@ h1 {
     font-weight: 500;
     font-size: 37.7px;
     margin: 10px 0 0px 0;
+}
+
+/* Reset format of input and select */
+input, select, textarea{
+    -webkit-appearance: none;
+
 }
 
 /* items that should align horizontal */
@@ -47,16 +53,16 @@ h1 {
     font-family: 'Fira Sans Extra Condensed', sans-serif;
     font-size: 1.25rem;
     color: #fefefe;
-    background: #161616;
+    background: #5c9396;
     border-bottom: none;
     border: 3px solid #161616;
 
 }
 
 #filter{
-    -webkit-appearance: none;
+   
     color:#fefefe ;
-    background: #161616;
+    background: #5c9396;
     margin-left: 10px;
    
 
@@ -163,19 +169,28 @@ a {
 }
 
 /* ----------------- Form style--------------------------------- */
+.details {
+    background-color: #3f5765;
+    padding: 10px;
+    color: #0b1828;
+}
 
 /* Tittle h2 */
 h2 {
-    margin: 10px 0 0 0;
+    margin: 10px 0 0;
+
 }
 /* Form buttons style */
+
 
 form input{
     -webkit-appearance: none;
     font-family: 'Fira Sans Extra Condensed', sans-serif;
-    border: 1px solid #161616;
+    border: none;
     font-size: 18px;
     margin: 10px 0 0 0;
+    background: #c7c7c7;
+
 }
 .form-buttons{
     justify-content: space-between;
@@ -188,6 +203,8 @@ form input{
 
 form select{
     width: fit-content;
+    background-color: none;
+    border: none;
 }
 
 

@@ -11,13 +11,14 @@
     <div class="container flex-column">
         <h1>Bookmarks app</h1>
         <h2>Add new bookmark</h2>
+        <div class="details flex-column">
         <form class="flex-column">
             
             <input type="url" name="url" id="url" required placeholder="http:sample.com"/ required>
-            <div class="details flex-column">
+            
                 <input type="text" class="title" placeholder="Insert bookmark name" required>
                 <label for="rating">Rating</label>
-                <select id="rating">
+                <select id="rating" class="filter">
                     <option value="1">★</option>
                     <option value="2">★★</option>
                     <option value="3">★★★</option>
